@@ -9,15 +9,19 @@ Questo progetto ha l'obiettivo di segmentare i clienti di un'azienda in gruppi (
 * [X] Connessione del repository locale a quello remoto.
 * [X] Creazione del file `.gitignore`.
 * [X] Primo push del progetto su GitHub.
-* [X] Installazione della libreria Pandas. (Ref:https://pandas.pydata.org/)
+* [X] Installazione della libreria Pandas.
 * [X] Creazione dello script `crea_dataset_sintetico.py` per generare dati di esempio.
 * [X] Esecuzione dello script `crea_dataset_sintetico.py` e creazione del file `data/clienti_sintetico.csv`.
 * [X] Creazione dello script `carica_dati.py` per caricare il dataset CSV in un DataFrame Pandas.
 * [X] Esecuzione dello script `carica_dati.py` e caricamento del dataset.
+* [X] Creazione del file `README.md` per la documentazione del progetto.
+
+## Task Attuali
+
+* [ ] Pre-elaborazione dei dati (selezione delle feature, standardizzazione/normalizzazione).
 
 ## Prossimi Passi
 
-* Pre-elaborazione dei dati (selezione delle feature, standardizzazione/normalizzazione).
 * Implementazione dell'algoritmo di clustering (k-means).
 * Valutazione dei cluster.
 * Visualizzazione dei risultati.
