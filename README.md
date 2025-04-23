@@ -17,12 +17,13 @@ Questo progetto ha l'obiettivo di segmentare i clienti di un'azienda in gruppi (
 * [X] Creazione del file `README.md` per la documentazione del progetto.
 * [X] Creazione dello script `pre_processa_dati.py` per standardizzare le feature.
 * [X] Esecuzione dello script `pre_processa_dati.py` e standardizzazione delle feature.
+* [X] Creazione dello script `clustering_kmeans.py` per implementare l'algoritmo k-means.
+* [X] Esecuzione dello script `clustering_kmeans.py` e assegnazione dei cluster.
 
 ## Task Attuali
 
-* [ ] Implementazione dell'algoritmo di clustering (k-means).
+* [ ] Valutazione dei cluster.
 
 ## Prossimi Passi
 
-* Valutazione dei cluster.
 * Visualizzazione dei risultati.
