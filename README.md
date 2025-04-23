@@ -21,13 +21,16 @@ Questo progetto ha l'obiettivo di segmentare i clienti di un'azienda in gruppi (
 * [X] Esecuzione dello script `clustering_kmeans.py` e assegnazione dei cluster.
 * [X] Creazione dello script `valuta_cluster.py` per calcolare il coefficiente di silhouette.
 * [X] Esecuzione dello script `valuta_cluster.py` e calcolo del coefficiente di silhouette.
+* [X] Creazione dello script `visualizza_cluster.py` per visualizzare i risultati del clustering.
+* [X] Esecuzione dello script `visualizza_cluster.py` e visualizzazione dei cluster in 3D.
 
 ## Task Attuali
 
-* [ ] Visualizzazione dei risultati.
+* [ ] (Potenziale) Esplorazione di diversi numeri di cluster (k).
+* [ ] (Potenziale) Utilizzo di altre metriche di valutazione del cluster.
+* [ ] (Potenziale) Analisi delle caratteristiche dei cluster.
 
 ## Prossimi Passi
 
-* (Potenziale) Esplorazione di diversi numeri di cluster (k).
-* (Potenziale) Utilizzo di altre metriche di valutazione del cluster.
-* (Potenziale) Analisi delle caratteristiche dei cluster.
+* (Potenziale) Approfondimento dell'analisi dei cluster identificati.
+* (Potenziale) Integrazione dei risultati in strategie di business.
