@@ -23,7 +23,7 @@ Questo progetto ha l'obiettivo di segmentare i clienti di un'azienda in gruppi (
 * [X] Esecuzione dello script `valuta_cluster.py` e calcolo del coefficiente di silhouette.
 * [X] Creazione dello script `visualizza_cluster.py` per visualizzare i risultati del clustering.
 * [X] Esecuzione dello script `visualizza_cluster.py` e visualizzazione dei cluster in 3D.
-![Visualizzazione dei Cluster 3D](images/cluster_visualization_3d.png)
+![Visualizzazione dei Cluster 3D](images/cluster_visualization_3d.jpeg)
 * [X] Creazione dello script `metodo_gomito.py` per determinare il numero ottimale di cluster.
 * [X] Esecuzione dello script `metodo_gomito.py` e analisi del grafico del metodo del gomito (che suggerisce k=3).
 
