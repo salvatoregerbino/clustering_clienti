@@ -66,8 +66,9 @@ Questo progetto ha l'obiettivo di segmentare i clienti di un'azienda in gruppi (
 ├── visualizza_cluster.py
 
 └── README.md
-  ```
 </details>
+  ```
+
 
 * `data/`: Contiene il dataset sintetico dei clienti.
 * `images/`: Contiene le immagini dei grafici generati.
