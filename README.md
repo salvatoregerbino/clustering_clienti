@@ -38,6 +38,7 @@ Questo progetto ha l'obiettivo di segmentare i clienti di un'azienda in gruppi (
 ## Struttura del Progetto
 <details>
   <summary>Mostra la struttura del progetto</summary>
+  `````````
   clustering_clienti/
 ├── data/
 │   └── clienti_sintetico.csv
@@ -52,11 +53,14 @@ Questo progetto ha l'obiettivo di segmentare i clienti di un'azienda in gruppi (
 ├── valuta_cluster.py
 ├── visualizza_cluster.py
 └── README.md
+  `````````
 </details>
 * `data/`: Contiene il dataset sintetico dei clienti.
 * `images/`: Contiene le immagini dei grafici generati.
 * `*.py`: Script Python per le varie fasi del progetto (generazione dati, caricamento, pre-elaborazione, clustering, valutazione, visualizzazione).
 * `README.md`: Il file di documentazione principale del progetto.
+
+
 ## Task Attuali
 
 * [ ] (Potenziale) Esplorazione di diversi numeri di cluster (k).
