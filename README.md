@@ -40,31 +40,31 @@ Questo progetto ha l'obiettivo di segmentare i clienti di un'azienda in gruppi (
   <summary>Mostra la struttura del progetto</summary>
   ```
   clustering_clienti/
-| 
+
 ├── data/
-|
+
 │   └── clienti_sintetico.csv
-|
+
 ├── images/
-|
+
 │   └── cluster_visualization_3d.png
-|
+
 │   └── metodo_gomito_grafico.jpeg
-|
+
 ├── carica_dati.py
-|
+
 ├── crea_dataset_sintetico.py
-|
+
 ├── clustering_kmeans.py
-|
+
 ├── metodo_gomito.py
-|
+
 ├── pre_processa_dati.py
-|
+
 ├── valuta_cluster.py
-|
+
 ├── visualizza_cluster.py
-|
+
 └── README.md
   ```
 </details>
