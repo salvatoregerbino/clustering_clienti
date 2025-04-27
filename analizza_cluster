@@ -1,0 +1,22 @@
+import pandas as pd
+
+# Percorso del file CSV con i cluster assegnati
+file_path = 'data/clienti_con_cluster.csv'
+
+try:
+    # Carica il dataset con i cluster
+    cliente_df = pd.read_csv(file_path)
+
+    # Raggruppa i dati per cluster
+    cluster_analisi = cliente_df.groupby('Cluster')[['Spesa_Totale', 'Numero_Ordini', 'Frequenza_Visite']].mean()
+
+    # Stampa le caratteristiche medie di ogni cluster
+    print("\nCaratteristiche medie dei cluster:")
+    print(cluster_analisi)
+
+except FileNotFoundError:
+    print(f"Errore: Il file '{file_path}' non è stato trovato. Assicurati che il percorso sia corretto.")
+except KeyError:
+    print("Errore: La colonna 'Cluster' non è presente nel file. Assicurati di aver eseguito lo script clustering_kmeans.py.")
+except Exception as e:
+    print(f"Si è verificato un errore durante l'analisi dei cluster: {e}")
